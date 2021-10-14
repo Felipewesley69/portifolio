@@ -20,6 +20,8 @@
 </head>
 
 <body>
+
+  </div>
   <div id="home"></div>
   <section class="background-nav">
     <div class="container-md">
@@ -44,7 +46,7 @@
                 <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#contato">Contato</a>
               </li>
             </ul>
           </div>
@@ -57,12 +59,12 @@
 
     <div class="row">
       <div class="col-md-12 top-title">
-        <h1 class="title-home">Perfil</h1>
+        <h1 class="title-home-p">Perfil</h1>
       </div>
     </div>
     <div class="row ">
       <div class="col-md-12 top-title">
-        <p>Sou um estudante de desenvolvimento Web <i>(Front-end)</i></p>
+        <p>Estudante de desenvolvimento Web <i>(Front-end)</i></p>
       </div>
     </div>
     <div class="row">
@@ -137,11 +139,55 @@
           </div>
         </div>
       </div>
+      <section id="contato" class="contato">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="center">Contato</h1>
+          </div>
+        </div>
+
+        <form action="https://api.staticforms.xyz/submit" method="post" onsubmit="sendMail">
+          <input type="hidden" name="accessKey" value="5779a5e1-e6a2-46a8-885c-330e00aa98b3"> <!-- Required -->
+          <input type="hidden" name="redirectTo" value="https://felipewesley69.github.io/portifolio/success.html">
+          <!-- Optional -->
+          <div class="row">
+            <div class="col-md-6">
+              <label for="">Nome:</label>
+              <input type="text" maxlength="25" required class="form-control" id="name" name="name" placeholder="Nome">
+            </div>
+
+            <div class="col-md-6">
+              <label for="">Assunto:</label>
+              <input type="text" maxlength="50" required class="form-control" id="subject" name="subject"
+                placeholder="Assunto">
+            </div>
+
+            <div class="col-md-6">
+              <label for="">E-mail:</label>
+              <input type="email" maxlength="50" required class="form-control" id="email" name="email"
+                placeholder="E-mail">
+            </div>
+
+            <div class="col-md-6">
+              <label for="">Contato:</label>
+              <input type="number" maxlength="25" class="form-control" id="phone" name="phone"
+                placeholder="Número de contato">
+            </div>
+
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensagem:</label>
+            <textarea class="form-control" maxlength="100" required id="message" name="message" rows="3"></textarea>
+          </div>
+          <button id="sendEmail" class="btn btn-secondary">Enviar mensagem!</button>
+        </form>
+
 
     </div>
+
+    </section>
   </div>
-
-
+  </div>
 
   <footer>
     <div class="row ">

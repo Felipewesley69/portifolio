@@ -42,14 +42,20 @@
 
 .top-title p {
   font-size: 20px;
-  padding-bottom: 20px;
+}
+
+.title-home-p {
+  padding-bottom: 15px;
+  font-weight: 500;
+  display: block;
+  margin-top: 100px;
 }
 
 .title-home {
-  padding-bottom: 35px;
+  padding-bottom: 15px;
   font-weight: 500;
   display: block;
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .sub-title {
@@ -64,7 +70,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px;
+  padding: 50px;
 }
 
 .img-home {
@@ -90,24 +96,31 @@
 
 
 .about-me>div>p {
-  padding: 50px 50px;
+  padding: 50px 10px;
   font-size: 20px;
 }
 
 .skills img {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .skills div {
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .skills div i {
-  font-size: 65px;
+  font-size: 80px;
   color: blueviolet;
 }
+
+.contato label {
+  padding-bottom: 10px;
+}
+
 
 footer {
   display: flex;
