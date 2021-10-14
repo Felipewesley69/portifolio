@@ -44,6 +44,11 @@
   font-size: 20px;
 }
 
+.top-title .p2 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
 .title-home-p {
   padding-bottom: 15px;
   font-weight: 500;
@@ -55,7 +60,7 @@
   padding-bottom: 15px;
   font-weight: 500;
   display: block;
-  margin-top: 50px;
+  padding-top: 85px;
 }
 
 .sub-title {
@@ -70,7 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 50px 50px 5px 50px;
 }
 
 .img-home {
@@ -86,6 +91,7 @@
   display: inline-block;
   font-size: 35px;
   margin-right: 19px;
+  margin-bottom: 50px;
 }
 
 .icon-social a {
@@ -93,7 +99,9 @@
   color: black;
 }
 
-
+.about-me>div>h1 {
+  padding: 40px 0 0 0;
+}
 
 .about-me>div>p {
   padding: 50px 10px;
