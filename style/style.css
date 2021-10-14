@@ -64,15 +64,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 25px;
+  padding: 80px;
 }
 
 .img-home {
-  max-width: 80%;
+  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
+  border: 1px solid #CCC;
 }
 
 .icon-social {
@@ -86,9 +87,7 @@
   color: black;
 }
 
-.about-me>div>h1 {
-  padding-top: 100px;
-}
+
 
 .about-me>div>p {
   padding: 50px 50px;
