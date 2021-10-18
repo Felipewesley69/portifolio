@@ -1,9 +1,23 @@
 * {
   font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  transition: all 1.9s;
+}
+
+a {
+  color: #FFF !important;
+}
+
+i {
+  color: #FFF !important;
+}
+
+body {
+  background-color: #000;
 }
 
 .background-nav {
-  background-color: rgba(204, 204, 204, 0.85);
+  background-color: #363636;
   width: 100%;
   min-height: 56px;
   position: fixed;
@@ -14,6 +28,7 @@
 
 .navbar-nav>li {
   padding-right: 25px;
+
 }
 
 .center {
@@ -135,5 +150,5 @@ footer {
   justify-content: center;
   margin-top: 35px;
   min-height: 200px;
-  background-color: #CCC;
+  background-color: #363636;
 }
